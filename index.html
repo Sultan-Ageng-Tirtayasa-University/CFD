@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pump CFD Studio</title>
+    <script src="vendor/chart-3.9.1.min.js"></script>
+    <script src="vendor/three-r128.min.js"></script>
+    <script src="vendor/OrbitControls-r128.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-shell">
+        <header class="hero">
+            <div>
+                <p class="eyebrow">CAD PARAMETRIK · KURVA POMPA · CFD PRE-PROCESSING</p>
+                <h1>Pump CFD Studio</h1>
+                <p class="hero-copy">Perancangan volute dan impeller berdimensi, pemeriksaan duty point, serta penyiapan zona fluida tanpa memerlukan SolidWorks atau ANSYS.</p>
+            </div>
+            <div class="hero-badges">
+                <span class="status-pill status-oem">Data OEM</span>
+                <span class="status-pill status-assumption">Asumsi internal</span>
+                <span class="status-pill status-cfd">Aturan CFD</span>
+            </div>
+        </header>
+
+        <div class="scope-notice">
+            <strong>Batas kemampuan:</strong> hasil kurva adalah interpolasi data pabrikan. Kontur LBM 2D hanya visualisasi kualitatif dan tidak menggantikan simulasi RANS 3D tervalidasi.
+        </div>
+
+        <main class="workspace">
+            <aside class="controls card">
+                <section class="control-section">
+                    <div class="section-heading"><div><p class="section-kicker">MODEL AKTIF</p><h2>Preset pompa</h2></div></div>
+                    <label class="field full-width" for="pumpPreset"><span>Produk</span><select id="pumpPreset"></select></label>
+                    <div class="source-card"><strong id="productName">-</strong><span id="productMeta">-</span><small id="productSource">-</small></div>
+                </section>
+
+                <section class="control-section">
+                    <div class="section-heading"><div><p class="section-kicker">GEOMETRI</p><h2>Dimensi hidraulik</h2></div><span class="unit-chip">mm</span></div>
+                    <div class="field-grid">
+                        <label class="field" for="suctionDN"><span>Suction DN <em data-source-for="suctionDN"></em></span><input type="number" id="suctionDN" min="1" step="1"></label>
+                        <label class="field" for="dischargeDN"><span>Discharge DN <em data-source-for="dischargeDN"></em></span><input type="number" id="dischargeDN" min="1" step="1"></label>
+                        <label class="field" for="D1"><span>Inlet sudu D1 <em data-source-for="D1"></em></span><input type="number" id="D1" min="1" step="0.1"></label>
+                        <label class="field" for="Dh"><span>Hub Dh <em data-source-for="Dh"></em></span><input type="number" id="Dh" min="1" step="0.1"></label>
+                        <label class="field" for="D2"><span>Impeller D2 <em data-source-for="D2"></em></span><input type="number" id="D2" min="1" step="0.1"></label>
+                        <label class="field" for="b2"><span>Lebar kanal b2 <em data-source-for="b2"></em></span><input type="number" id="b2" min="1" step="0.1"></label>
+                        <label class="field" for="bladeThickness"><span>Tebal sudu <em data-source-for="bladeThickness"></em></span><input type="number" id="bladeThickness" min="0.5" step="0.1"></label>
+                        <label class="field" for="Z"><span>Jumlah sudu Z <em data-source-for="Z"></em></span><input type="number" id="Z" min="3" max="20" step="1"></label>
+                        <label class="field" for="beta1"><span>Sudut β1 [°] <em data-source-for="beta1"></em></span><input type="number" id="beta1" min="5" max="80" step="0.1"></label>
+                        <label class="field" for="beta2"><span>Sudut β2 [°] <em data-source-for="beta2"></em></span><input type="number" id="beta2" min="5" max="80" step="0.1"></label>
+                        <label class="field" for="rotorInterface"><span>Interface rotor Ø <em data-source-for="rotorInterface"></em></span><input type="number" id="rotorInterface" min="1" step="0.1"></label>
+                        <label class="field" for="voluteStartWidth"><span>Volute awal <em data-source-for="voluteStartWidth"></em></span><input type="number" id="voluteStartWidth" min="1" step="0.1"></label>
+                        <label class="field" for="voluteEndWidth"><span>Volute akhir <em data-source-for="voluteEndWidth"></em></span><input type="number" id="voluteEndWidth" min="1" step="0.1"></label>
+                    </div>
+                </section>
+
+                <section class="control-section">
+                    <div class="section-heading"><div><p class="section-kicker">OPERASI</p><h2>Duty dan fluida</h2></div></div>
+                    <div class="field-grid">
+                        <label class="field" for="rpm"><span>Putaran [rpm] <em data-source-for="rpm"></em></span><input type="number" id="rpm" min="0" step="1"></label>
+                        <label class="field" for="operatingFlow"><span>Debit Q [m³/h]</span><input type="number" id="operatingFlow" min="0" step="0.01"></label>
+                        <label class="field" for="ratedFlow"><span>Rated Q [m³/h] <em data-source-for="ratedFlow"></em></span><input type="number" id="ratedFlow" min="0" step="0.01"></label>
+                        <label class="field" for="ratedHead"><span>Rated H [m] <em data-source-for="ratedHead"></em></span><input type="number" id="ratedHead" min="0" step="0.01"></label>
+                        <label class="field" for="fluidTemperature"><span>Temperatur [°C] <em data-source-for="fluidTemperature"></em></span><input type="number" id="fluidTemperature" step="0.1"></label>
+                        <label class="field" for="fluidDensity"><span>Densitas [kg/m³] <em data-source-for="fluidDensity"></em></span><input type="number" id="fluidDensity" min="1" step="0.1"></label>
+                        <label class="field full-width" for="dynamicViscosity"><span>Viskositas dinamik [Pa·s] <em data-source-for="dynamicViscosity"></em></span><input type="number" id="dynamicViscosity" min="0.000001" step="0.000001"></label>
+                        <label class="field full-width" for="npshAvailable"><span>NPSH tersedia [m] <em class="source-badge source-missing">opsional</em></span><input type="number" id="npshAvailable" min="0" step="0.01" placeholder="Isi dari sistem suction"></label>
+                    </div>
+                </section>
+
+                <section class="control-section">
+                    <div class="section-heading"><div><p class="section-kicker">DOMAIN</p><h2>Panjang ekstensi CFD</h2></div></div>
+                    <div class="field-grid">
+                        <label class="field" for="suctionL"><span>Suction L <em data-source-for="suctionL"></em></span><input type="number" id="suctionL" min="1" step="1"></label>
+                        <label class="field" for="dischargeL"><span>Discharge L <em data-source-for="dischargeL"></em></span><input type="number" id="dischargeL" min="1" step="1"></label>
+                    </div>
+                    <div class="toggle-list">
+                        <label><input type="checkbox" id="showVolute" checked><span>Tampilkan volute</span></label>
+                        <label><input type="checkbox" id="animateImpeller"><span>Animasi impeller</span></label>
+                        <label><input type="checkbox" id="cfdMode"><span>Kontur kualitatif</span></label>
+                    </div>
+                    <label class="field full-width" for="lbmResolution"><span>Resolusi LBM eksperimental</span><select id="lbmResolution"><option value="64">64 × 64</option><option value="128" selected>128 × 128</option><option value="256">256 × 256</option></select></label>
+                    <input type="hidden" id="cavitationG" value="0"><span id="gValText" hidden>0.0</span>
+                </section>
+
+                <button id="updateBtn" class="primary-button" type="button">Perbarui model</button>
+                <div class="button-grid">
+                    <button id="exportProjectBtn" class="secondary-button" type="button">Export JSON</button>
+                    <button id="exportBtn" class="secondary-button" type="button">Profil XY CSV</button>
+                    <button id="exportCurveBtn" class="secondary-button" type="button">Kurva CSV</button>
+                    <a id="cadDownloadBtn" class="download-button" href="#" download>CAD STEP R2</a>
+                </div>
+            </aside>
+
+            <section class="content-column">
+                <div class="metric-grid">
+                    <article class="metric-card"><span>Head kurva</span><strong id="resultHead">-</strong><small>pada Q terpilih</small></article>
+                    <article class="metric-card"><span>Kenaikan tekanan</span><strong id="resultPressure">-</strong><small>dari ρgH</small></article>
+                    <article class="metric-card"><span>Efisiensi pompa</span><strong id="resultEfficiency">-</strong><small>P hidraulik / P2</small></article>
+                    <article class="metric-card"><span>Daya poros P2</span><strong id="resultPower">-</strong><small>interpolasi kurva</small></article>
+                    <article class="metric-card"><span>NPSHr</span><strong id="resultNpsh">-</strong><small>kurva pabrikan</small></article>
+                    <article class="metric-card"><span>Torsi poros</span><strong id="resultTorque">-</strong><small>P2 / ω</small></article>
+                </div>
+
+                <div class="tab-card card">
+                    <nav class="tab-bar" aria-label="Tampilan model">
+                        <button class="tab-button active" data-panel="geometryPanel" type="button">Geometri</button>
+                        <button class="tab-button" data-panel="performancePanel" type="button">Kurva & hasil</button>
+                        <button class="tab-button" data-panel="domainsPanel" type="button">Zona CFD</button>
+                    </nav>
+
+                    <section id="geometryPanel" class="tab-panel active">
+                        <div class="panel-header"><div><p class="section-kicker">MODEL PARAMETRIK</p><h2>Volute dan impeller</h2></div><div class="view-switch"><button id="view2dBtn" class="active" type="button">2D</button><button id="view3dBtn" type="button">3D</button></div></div>
+                        <div class="visual-stage">
+                            <canvas id="impellerChart"></canvas><div id="canvas3d"></div>
+                            <div id="cfdHUD" class="cfd-hud hidden"><strong>Kontur LBM 2D kualitatif</strong><span>ρ: <b id="hudRho">-</b></span><span>μ: <b id="hudVisc">-</b></span><span>n: <b id="hudRPM">-</b></span><span>Kecepatan relatif: <b id="hudVel">-</b></span><span id="hudPres">Head kurva: <b id="hudPresMax">-</b></span></div>
+                        </div>
+                        <div id="geometryStatus" class="validation-box"></div>
+                    </section>
+
+                    <section id="performancePanel" class="tab-panel">
+                        <div class="panel-header"><div><p class="section-kicker">DATA PABRIKAN</p><h2>Kurva performa</h2></div><span id="curveModelLabel" class="model-label">-</span></div>
+                        <div class="chart-stage"><canvas id="performanceChart"></canvas></div>
+                        <div class="result-table-wrap"><table class="result-table"><thead><tr><th>Parameter</th><th>Nilai</th><th>Keterangan</th></tr></thead><tbody id="performanceTableBody"></tbody></table></div>
+                    </section>
+
+                    <section id="domainsPanel" class="tab-panel">
+                        <div class="domain-grid">
+                            <article class="domain-card inlet"><span>01</span><h3>InletFluid</h3><p>Zona diam dari suction inlet sampai bidang eye.</p></article>
+                            <article class="domain-card rotor"><span>02</span><h3>RotorFluid</h3><p>Zona berputar Ø interface yang mengurung impeller.</p></article>
+                            <article class="domain-card stator"><span>03</span><h3>StatorFluid</h3><p>Volute dan pipa discharge sebagai zona diam.</p></article>
+                        </div>
+                        <div class="two-column-info">
+                            <div><h3>Jadwal dimensi</h3><table class="dimension-table"><tbody id="dimensionTableBody"></tbody></table></div>
+                            <div><h3>Pemeriksaan setup</h3><ul id="cfdChecklist" class="check-list"></ul><div class="lbm-preview"><canvas id="voxelCanvas"></canvas><small>Gelap = fluida, abu-abu = luar domain, jingga = sudu.</small></div></div>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="accuracy-card card">
+                    <div><strong>Yang sudah berbasis produk</strong><p>D2, DN80/DN65, rpm, duty point, densitas, daya motor, dan kurva Q-H/P/NPSH.</p></div>
+                    <div><strong>Yang masih perlu pengukuran</strong><p>D1, hub, b2, profil dan jumlah sudu, shroud, clearance, serta penampang internal volute.</p></div>
+                </div>
+            </section>
+        </main>
+
+        <footer>Model geometri R2 adalah pendekatan rekayasa. Gunakan data ukur internal sebelum keputusan desain, garansi performa, atau evaluasi kavitasi.</footer>
+    </div>
+
+    <script src="src/globals.js"></script>
+    <script src="src/data/pump_presets.js"></script>
+    <script src="src/engineering/pump_performance.js"></script>
+    <script src="src/geometry/math_utils.js"></script>
+    <script src="src/geometry/voxelizer.js"></script>
+    <script src="src/ui/chart2d.js"></script>
+    <script src="src/ui/renderer3d.js"></script>
+    <script src="src/ui/main.js"></script>
+    <script src="build/cfd_engine.js?v=2"></script>
+</body>
+</html>

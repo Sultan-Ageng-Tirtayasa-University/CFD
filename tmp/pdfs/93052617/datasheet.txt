@@ -1,0 +1,443 @@
+
+===== PAGE 1 =====
+Company name:
+Created by:
+Phone:
+Date: 05/09/2026
+Printed from Grundfos Product Centre [2026.35.002]
+ Qty. Description
+ 1 NK 65-180/172 AA1F2S3ESBQQEOW1
+Product No.: 93052617
+Non-self-priming, single-stage, centrifugal pump designed according to ISO 5199 with dimensions and rated
+performance according to EN 733. Flanges are PN 16 with dimensions according to EN 1092-2. The pump has an
+axial suction port, a radial discharge port and horizontal shaft. It is of the back pull-out design enabling removal of the
+motor, coupling, bearing bracket and impeller without disturbing the pump housing or pipework.
+The unbalanced rubber bellows seal is according to DIN EN 12756.
+The pump is fitted with a foot-mounted, fan-cooled asynchronous motor. Pump and motor are mounted on a common
+base frame.
+The product's minimum efficiency index (MEI) is greater or equal to 0.70. This is by the Commission Regulation (EU)
+considered as an indicative benchmark for best-performing water pump available on the market as from 1 January
+2013.
+Pump
+The pump is fitted with an unbalanced rubber bellows seal with torque transmission across the spring and around the
+bellows. Due to the bellows, the seal does not wear the shaft, and the axial movement is not prevented by deposits
+on the shaft.
+Seal faces:
+• Rotating seal ring material: silicon carbide (SiC)
+• Stationary seat material: silicon carbide (SiC)
+This material pairing is used where higher corrosion resistance is required. The high hardness of this material pairing
+offers good resistance against abrasive particles.
+Secondary seal material: EPDM (ethylene-propylene rubber)
+EPDM has excellent resistance to hot water. EPDM is not suitable for mineral oils.
+The wetted parts of the shaft is made of stainless steel and has a diameter of 24 mm where the coupling is mounted.
+The language on the pump nameplate is Chinese.
+Motor
+The motor is a totally enclosed, fan-cooled motor with principal dimensions to IEC and DIN standards. Electrical
+tolerances comply with IEC 60034.
+The motor efficiency is classified as IE3 in accordance with IEC 60034-30-1.
+The motor has thermistors (PTC sensors) in the windings in accordance with DIN 44081/DIN 44082. The protection
+reacts to both slow- and quick-rising temperatures, e.g. constant overload and stalled conditions.
+Thermal switches must be connected to an external control circuit in a way which ensures that the automatic reset
+cannot cause accidents. The motors must be connected to a motor-protective circuit breaker according to local
+regulations.
+Further product details
+Cast-iron parts have high quality C3 M exterior painting to protect the product from corrosion.
+Technical data
+Controls:
+Frequency converter: None
+Pressure sensor: N
+ 1
+===== PAGE 2 =====
+Company name:
+Created by:
+Phone:
+Date: 05/09/2026
+Printed from Grundfos Product Centre [2026.35.002]
+ Qty. Description
+ 1 Liquid:
+Pumped liquid: Water
+Liquid temperature range: -25 .. 120 °C
+Selected liquid temperature: 50 °C
+Density: 988 kg/m³
+Technical:
+Pump speed on which pump data are based: 2930 rpm
+Rated flow: 88.61 m³/h
+Pump with motor (Yes/No): Y
+Rated head: 34.93 m
+Actual impeller diameter: 172 mm
+Nominal impeller diameter: 180
+Primary shaft seal: BQQE
+Code for shaft seal: BQQE
+Mechanical seal type: Single
+Curve tolerance: ISO9906:2012 2B
+Bearing design: Standard
+Materials:
+Type key, code for rubber components. E = EPDM, V=FKM: E
+Pump housing: Cast iron
+EN 1561 EN-GJL-250
+ASTM A48-35
+Impeller: Stainless steel
+EN 1.4308
+ASTM A351 CF8
+Pump house, internal coating: Painting
+Type key, code for materials: S3
+Shaft: Steel
+EN 1.0503/1.4301
+AISI 1045/304
+Installation:
+Maximum ambient temperature: 40 °C
+Maximum operating pressure: 16 bar
+Pipe connection standard: EN 1092-2
+Type of inlet connection: DIN
+Type of outlet connection: DIN
+Size of inlet connection: DN 80
+Size of outlet connection: DN 65
+Pressure rating for connection: PN 16
+Coupling type: Flexible w/o spacer
+Base frame design: C-channel
+Code for base frame: 271
+Grouting (Yes/No): N
+Electrical data:
+ 2
+===== PAGE 3 =====
+Company name:
+Created by:
+Phone:
+Date: 05/09/2026
+Printed from Grundfos Product Centre [2026.35.002]
+ Qty. Description
+ 1 Motor type: 160MB
+Rated power - P2: 15 kW
+Mains frequency: 50 Hz
+Rated voltage: 3 x 380-400D/660-690Y V
+Rated current: 27,9-26,5/16,0-15,3 A
+Starting current: 810 %
+Cos phi - power factor: 0.89
+Rated speed: 2930 rpm
+IE efficiency: IE3 91,9%
+IE Efficiency class: IE3
+Motor efficiency at full load: 91.9 %
+Motor efficiency at 3/4 load: 91.9 %
+Motor efficiency at 1/2 load: 89.8 %
+Number of poles: 2
+Enclosure class (IEC 34-5): IP55 (Protect. water jets/dust)
+Insulation class (IEC 85): F
+Built-in motor protection: PTC
+Motor No: 99546140
+Bearing insulation type N-end: Steel bearing
+Others:
+Minimum efficiency index, MEI ≥: 0.70
+Net weight: 226 kg
+Gross weight: 256 kg
+Shipping volume: 0.585 m³
+Country of origin: CN
+Custom tariff no.: 84137000
+Language on pump nameplate: CN
+ 3
+===== PAGE 4 =====
+Company name:
+Created by:
+Phone:
+Date: 05/09/2026
+Printed from Grundfos Product Centre [2026.35.002]
+93052617 NK 65-180/172 AA1F2S3ESBQQEOW1 50 Hz
+ H
+[m]
+ 0
+ 5
+ 10
+ 15
+ 20
+ 25
+ 30
+ 35
+ 40
+ 45
+Q [m³/h]0 10 20 30 40 50 60 70 80 90 100 110
+NK 65-180/172, 3*400 V, 50Hz
+100 %
+90 %
+80 %
+70 %
+60 %
+50 %
+40 %
+25 %
+Pumped liquid = Water
+Liquid temperature during operation = 50 °C
+Density = 988 kg/m³
+ P
+[kW]
+ 0
+ 2
+ 4
+ 6
+ 8
+ 10
+ 12
+ 14
+ NPSH
+[m]
+0
+2
+4
+6
+8
+10
+12
+14
+0
+2
+4
+6
+8
+10
+12
+14
+P1 (motor+freq.converter)
+P2
+ 4
+===== PAGE 5 =====
+Company name:
+Created by:
+Phone:
+Date: 05/09/2026
+Printed from Grundfos Product Centre [2026.35.002]
+ H
+[m]
+ 0
+ 5
+ 10
+ 15
+ 20
+ 25
+ 30
+ 35
+ 40
+ 45
+Q [m³/h]0 20 40 60 80 100
+NK 65-180/172, 3*400 V, 50Hz
+100 %
+90 %
+80 %
+70 %
+60 %
+50 %
+40 %
+25 %
+Pumped liquid = Water
+Liquid temperature during operation = 50 °C
+Density = 988 kg/m³
+ P
+[kW]
+ 0
+ 2
+ 4
+ 6
+ 8
+ 10
+ 12
+ NPSH
+[m]
+0
+2
+4
+6
+8
+10
+12
+0
+2
+4
+6
+8
+10
+12
+P1 (motor+freq.converter)
+P2
+80
+100
+140
+65
+200
+92
+72.5
+8 X 19
+4 X 19
+19
+160
+512
+252
+1084.2
+162162
+334
+4 X 19
+416
+= =
+591
+915
+372
+145
+L3L2L1
++T +T+T
+TO AMPLIFIER
+RELAY
+IEC TP211 THERMALLY PROTECTED WHEN THE THERMISTORS ARE
+CONNECTED TO AMPLIFIER RELAY FOR CONTROL OF MAIN SUPPLY
+THERMISTORS PTC ACCORDING TO DIN 44082
+TO AMPLIFIER
+RELAY
++T +T+T
+L1 L2 L3
+Description Value
+General information:
+Product name: NK 65-180/172
+AA1F2S3ESBQQEOW1
+Product No: 93052617
+EAN number: 5715467079104
+Price: AED 18680
+Technical:
+Pump speed on which pump data
+are based: 2930 rpm
+Rated flow: 88.61 m³/h
+Pump with motor (Yes/No): Y
+Rated head: 34.93 m
+Actual impeller diameter: 172 mm
+Nominal impeller diameter: 180
+Primary shaft seal: BQQE
+Shaft diameter: 24 mm
+Code for shaft seal: BQQE
+Mechanical seal type: Single
+Curve tolerance: ISO9906:2012 2B
+Pump version: A1
+Pump type: NK
+Bearing design: Standard
+Materials:
+Type key, code for rubber
+components. E = EPDM, V=FKM: E
+Pump housing: Cast iron
+EN 1561 EN-GJL-250
+ASTM A48-35
+Impeller: Stainless steel
+EN 1.4308
+ASTM A351 CF8
+Pump house, internal coating: Painting
+Type key, code for materials: S3
+Code for rubber: E
+Shaft: Steel
+EN 1.0503/1.4301
+AISI 1045/304
+Installation:
+Maximum ambient temperature: 40 °C
+Maximum operating pressure: 16 bar
+Type key, code for pipework
+connection: F
+Pipe connection standard: EN 1092-2
+Type of inlet connection: DIN
+Type of outlet connection: DIN
+Size of inlet connection: DN 80
+Size of outlet connection: DN 65
+Pressure rating for connection: PN 16
+Coupling type: Flexible w/o spacer
+Base frame design: C-channel
+Code for base frame: 271
+Grouting (Yes/No): N
+Connect code: F
+Liquid:
+Pumped liquid: Water
+Liquid temperature range: -25 .. 120 °C
+Selected liquid temperature: 50 °C
+Density: 988 kg/m³
+80
+100
+140
+65
+200 92
+72.5
+8X19
+4X19
+19160
+512
+252
+1084.2
+162162
+334
+4X19
+416
+==591
+915
+372
+145
+ 5
+===== PAGE 6 =====
+Company name:
+Created by:
+Phone:
+Date: 05/09/2026
+Printed from Grundfos Product Centre [2026.35.002]
+Description Value
+Electrical data:
+Motor type: 160MB
+Rated power - P2: 15 kW
+Mains frequency: 50 Hz
+Rated voltage: 3 x 380-400D/660-690Y V
+Rated current: 27,9-26,5/16,0-15,3 A
+Starting current: 810 %
+Cos phi - power factor: 0.89
+Rated speed: 2930 rpm
+IE efficiency: IE3 91,9%
+IE Efficiency class: IE3
+Motor efficiency at full load: 91.9 %
+Motor efficiency at 3/4 load: 91.9 %
+Motor efficiency at 1/2 load: 89.8 %
+Number of poles: 2
+Enclosure class (IEC 34-5): IP55 (Protect. water jets/dust)
+Insulation class (IEC 85): F
+Built-in motor protection: PTC
+Motor No: 99546140
+Bearing insulation type N-end: Steel bearing
+Controls:
+Frequency converter: None
+Pressure sensor: N
+Others:
+Minimum efficiency index, MEI ≥: 0.70
+Net weight: 226 kg
+Gross weight: 256 kg
+Shipping volume: 0.585 m³
+Country of origin: CN
+Custom tariff no.: 84137000
+Language on pump nameplate: CN
+ 6
+===== PAGE 7 =====
+Company name:
+Created by:
+Phone:
+Date: 05/09/2026
+Printed from Grundfos Product Centre [2026.35.002]
+93052617 NK 65-180/172 AA1F2S3ESBQQEOW1 50 Hz
+Note! All units are in [mm] unless others are stated.
+Disclaimer: This simplified dimensional drawing does not show all details.
+80
+100
+140
+65
+200
+92
+72.5
+8 X 19
+4 X 19
+19
+160
+512
+252
+1084.2
+162162
+334
+4 X 19
+416
+= =
+591
+915
+372
+145
+ 7
