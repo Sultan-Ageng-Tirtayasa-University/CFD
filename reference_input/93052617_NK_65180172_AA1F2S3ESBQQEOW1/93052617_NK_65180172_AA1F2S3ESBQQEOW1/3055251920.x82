@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GAEB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.gaeb.de/GAEB_DA_XML/200407">
+  <GAEBInfo>
+    <Version>3.1</Version>
+    <VersDate>2009-12</VersDate>
+    <Date>2026-09-05</Date>
+  </GAEBInfo>
+  <PrjInfo>
+    <NamePrj />
+  </PrjInfo>
+  <Award>
+    <DP>82</DP>
+    <AwardInfo>
+      <Cur />
+      <CurLbl />
+      <OpenDate>0001-01-01</OpenDate>
+    </AwardInfo>
+    <BoQ ID="id1">
+      <BoQInfo>
+        <Name>1</Name>
+        <LblBoQ>GRUNDFOS GMBH</LblBoQ>
+        <OutlCompl>AllTxt</OutlCompl>
+        <BoQBkdn>
+          <Type>BoQLevel</Type>
+          <LblBoQBkdn>Titel</LblBoQBkdn>
+          <Length>2</Length>
+          <Num>No</Num>
+        </BoQBkdn>
+        <BoQBkdn>
+          <Type>BoQLevel</Type>
+          <LblBoQBkdn>Untertitel</LblBoQBkdn>
+          <Length>2</Length>
+          <Num>No</Num>
+        </BoQBkdn>
+        <BoQBkdn>
+          <Type>Item</Type>
+          <Length>4</Length>
+          <Num>No</Num>
+        </BoQBkdn>
+        <NoUPComps>0</NoUPComps>
+      </BoQInfo>
+      <BoQBody>
+        <Remark ID="id2">
+          <Description>
+            <CompleteText>
+              <DetailTxt>
+                <Text>
+                  <p>
+                    <span>GRUNDFOS GMBH</span>
+                  </p>
+                  <p>
+                    <span>Schlüterstrasse 33</span>
+                    <br />
+                    <span>40699 Erkrath</span>
+                  </p>
+                  <p>
+                    <span>Telefon</span>
+                    <span>00490211929690</span>
+                    <br />
+                    <span>Fax</span>
+                    <span>00490211929693699</span>
+                    <br />
+                    <span>infoservice@grundfos.de</span>
+                    <span>(mailto:infoservice@grundfos.de)</span>
+                    <br />
+                    <span>http://www.grundfos.de</span>
+                    <span>(http://www.grundfos.de)</span>
+                    <br />
+                  </p>
+                </Text>
+              </DetailTxt>
+              <OutlineText>
+                <OutlTxt>
+                  <TextOutlTxt>
+                    <p>
+                      <span>Herstellerinformation</span>
+                    </p>
+                  </TextOutlTxt>
+                </OutlTxt>
+              </OutlineText>
+            </CompleteText>
+          </Description>
+        </Remark>
+        <BoQCtgy ID="id3" RNoPart="1">
+          <LblTx>
+            <p>
+              <span>NK</span>
+            </p>
+          </LblTx>
+          <BoQBody>
+            <Itemlist>
+              <Item ID="id4" RNoPart="1">
+                <BillQty>0</BillQty>
+                <QU>Stk</QU>
+                <UP>0</UP>
+                <Description>
+                  <CompleteText>
+                    <DetailTxt>
+                      <Text>
+                        <p>
+                          <span>NK 65-180/172 AA1F2S3ESBQQEOW1</span>
+                          <br />
+                          <br />
+                          <span>Non-self-priming, single-stage, centrifugal pump designed according to ISO 5199 with dimensions and rated performance according to EN 733. Flanges are PN 16 with dimensions according to EN 1092-2. The pump has an axial suction port, a radial discharge port and horizontal shaft. It is of the back pull-out design enabling removal of the motor, coupling, bearing bracket and impeller without disturbing the pump housing or pipework.</span>
+                          <br />
+                          <span>The unbalanced rubber bellows seal is according to DIN EN 12756.</span>
+                          <br />
+                          <span>The pump is fitted with a foot-mounted, fan-cooled asynchronous motor. Pump and motor are mounted on a common base frame.</span>
+                          <br />
+                          <br />
+                          <span>Controls:</span>
+                          <br />
+                          <span>Frequency converter: None</span>
+                          <br />
+                          <span>Pressure sensor: N</span>
+                          <br />
+                          <span>Liquid:</span>
+                          <br />
+                          <span>Pumped liquid: Water</span>
+                          <br />
+                          <span>Liquid temperature range: -25 .. 120 °C</span>
+                          <br />
+                          <span>Selected liquid temperature: 50 °C</span>
+                          <br />
+                          <span>Density: 988 kg/m³</span>
+                          <br />
+                          <span>Technical:</span>
+                          <br />
+                          <span>Pump speed on which pump data are based: 2930 rpm</span>
+                          <br />
+                          <span>Rated flow: 88.61 m³/h</span>
+                          <br />
+                          <span>Pump with motor (Yes/No): Y</span>
+                          <br />
+                          <span>Rated head: 34.93 m</span>
+                          <br />
+                          <span>Actual impeller diameter: 172 mm</span>
+                          <br />
+                          <span>Nominal impeller diameter: 180</span>
+                          <br />
+                          <span>Primary shaft seal: BQQE</span>
+                          <br />
+                          <span>Code for shaft seal: BQQE</span>
+                          <br />
+                          <span>Mechanical seal type: Single</span>
+                          <br />
+                          <span>Curve tolerance: ISO9906:2012 2B</span>
+                          <br />
+                          <span>Bearing design: Standard</span>
+                          <br />
+                          <span>Materials:</span>
+                          <br />
+                          <span>Type key, code for rubber components. E = EPDM, V=FKM: E</span>
+                          <br />
+                          <span>Pump housing: Cast iron</span>
+                          <br />
+                          <span>Pump housing: EN 1561 EN-GJL-250</span>
+                          <br />
+                          <span>Pump housing: ASTM A48-35</span>
+                          <br />
+                          <span>Impeller: Stainless steel</span>
+                          <br />
+                          <span>Impeller: EN 1.4308</span>
+                          <br />
+                          <span>Impeller: ASTM A351 CF8</span>
+                          <br />
+                          <span>Pump house, internal coating: Painting</span>
+                          <br />
+                          <span>Type key, code for materials: S3</span>
+                          <br />
+                          <span>Shaft: Steel</span>
+                          <br />
+                          <span>Shaft: EN 1.0503/1.4301</span>
+                          <br />
+                          <span>Shaft: AISI 1045/304</span>
+                          <br />
+                          <span>Installation:</span>
+                          <br />
+                          <span>Maximum ambient temperature: 40 °C</span>
+                          <br />
+                          <span>Maximum operating pressure: 16 bar</span>
+                          <br />
+                          <span>Pipe connection standard: EN 1092-2</span>
+                          <br />
+                          <span>Type of inlet connection: DIN</span>
+                          <br />
+                          <span>Type of outlet connection: DIN</span>
+                          <br />
+                          <span>Size of inlet connection: DN 80</span>
+                          <br />
+                          <span>Size of outlet connection: DN 65</span>
+                          <br />
+                          <span>Pressure rating for connection: PN 16</span>
+                          <br />
+                          <span>Coupling type: Flexible w/o spacer</span>
+                          <br />
+                          <span>Base frame design: C-channel</span>
+                          <br />
+                          <span>Code for base frame: 271</span>
+                          <br />
+                          <span>Grouting (Yes/No): N</span>
+                          <br />
+                          <span>Electrical data:</span>
+                          <br />
+                          <span>Motor type: 160MB</span>
+                          <br />
+                          <span>Rated power - P2: 15 kW</span>
+                          <br />
+                          <span>Mains frequency: 50 Hz</span>
+                          <br />
+                          <span>Rated voltage: 3 x 380-400D/660-690Y V</span>
+                          <br />
+                          <span>Rated current: 27,9-26,5/16,0-15,3 A</span>
+                          <br />
+                          <span>Starting current: 810 %</span>
+                          <br />
+                          <span>Cos phi - power factor: 0.89</span>
+                          <br />
+                          <span>Rated speed: 2930 rpm</span>
+                          <br />
+                          <span>IE efficiency: IE3 91,9%</span>
+                          <br />
+                          <span>IE Efficiency class: IE3</span>
+                          <br />
+                          <span>Motor efficiency at full load: 91.9 %</span>
+                          <br />
+                          <span>Motor efficiency at 3/4 load: 91.9 %</span>
+                          <br />
+                          <span>Motor efficiency at 1/2 load: 89.8 %</span>
+                          <br />
+                          <span>Number of poles: 2</span>
+                          <br />
+                          <span>Enclosure class (IEC 34-5): IP55 (Protect. water jets/dust)</span>
+                          <br />
+                          <span>Insulation class (IEC 85): F</span>
+                          <br />
+                          <span>Built-in motor protection: PTC</span>
+                          <br />
+                          <span>Motor No: 99546140</span>
+                          <br />
+                          <span>Bearing insulation type N-end: Steel bearing</span>
+                          <br />
+                          <span>Others:</span>
+                          <br />
+                          <span>Minimum efficiency index, MEI ≥: 0.70</span>
+                          <br />
+                          <span>Net weight: 226 kg</span>
+                          <br />
+                          <span>Gross weight: 256 kg</span>
+                          <br />
+                          <span>Shipping volume: 0.585 m³</span>
+                          <br />
+                          <span>Country of origin: CN</span>
+                          <br />
+                          <span>Custom tariff no.: 84137000</span>
+                          <br />
+                          <span>Language on pump nameplate: CN</span>
+                          <br />
+                          <br />
+                        </p>
+                      </Text>
+                    </DetailTxt>
+                    <OutlineText>
+                      <OutlTxt>
+                        <TextOutlTxt>
+                          <p>
+                            <span>NK 65-180/172 AA1F2S3ESBQQEOW1</span>
+                          </p>
+                        </TextOutlTxt>
+                      </OutlTxt>
+                    </OutlineText>
+                  </CompleteText>
+                </Description>
+                <SumDescr>Yes</SumDescr>
+                <Product>
+                  <Article>
+                    <Brand />
+                    <ArtNo>93052617</ArtNo>
+                    <QU />
+                    <ArtOutline>
+                      <p>
+                        <span>NK 65-180/172 AA1F2S3ESBQQEOW1</span>
+                      </p>
+                    </ArtOutline>
+                  </Article>
+                </Product>
+              </Item>
+            </Itemlist>
+          </BoQBody>
+        </BoQCtgy>
+      </BoQBody>
+    </BoQ>
+  </Award>
+</GAEB>

@@ -1,0 +1,119 @@
+T0                                                                        000001
+T1                                                                        000002
+T9                                                                        000003
+00        81L                                                 1122PPPPI90 000004
+01                                 05.09.26                               000005
+02                                                                        000006
+02                                                                        000007
+03-                                                                       000008
+1110       N    Pumpen                                                    000009
+12Pumpen                                                                  000010
+111001     N    Pumpe                                                     000011
+12Pumpe                                                                   000012
+21001000001NNN         00000001000Stck                                    000013
+25Grundfos NK 65-180/172                                                  000014
+26   NK 65-180/172 AA1F2S3ESBQQEOW1                                       000015
+26                                                                        000016
+26   Non-self-priming, single-stage, centrifugal pump                     000017
+26   designed according to ISO 5199 with dimensions and                   000018
+26   rated performance according to EN 733. Flanges are PN                000019
+26   16 with dimensions according to EN 1092-2. The pump                  000020
+26   has an axial suction port, a radial discharge port and               000021
+26   horizontal shaft. It is of the back pull-out design                  000022
+26   enabling removal of the motor, coupling, bearing                     000023
+26   bracket and impeller without disturbing the pump                     000024
+26   housing or pipework.                                                 000025
+26   The unbalanced rubber bellows seal is according to DIN               000026
+26   EN 12756.                                                            000027
+26   The pump is fitted with a foot-mounted, fan-cooled                   000028
+26   asynchronous motor. Pump and motor are mounted on a                  000029
+26   common base frame.                                                   000030
+26                                                                        000031
+26   Controls:                                                            000032
+26   Frequency converter: None                                            000033
+26   Pressure sensor: N                                                   000034
+26   
+Liquid:                                                             000035
+26   Pumped liquid: Water                                                 000036
+26   Liquid temperature range: -25 .. 120 øC                              000037
+26   Selected liquid temperature: 50 øC                                   000038
+26   Density: 988 kg/mü                                                   000039
+26   
+Technical:                                                          000040
+26   Pump speed on which pump data are based: 2930 rpm                    000041
+26   Rated flow: 88.61 mü/h                                               000042
+26   Pump with motor (Yes/No): Y                                          000043
+26   Rated head: 34.93 m                                                  000044
+26   Actual impeller diameter: 172 mm                                     000045
+26   Nominal impeller diameter: 180                                       000046
+26   Primary shaft seal: BQQE                                             000047
+26   Code for shaft seal: BQQE                                            000048
+26   Mechanical seal type: Single                                         000049
+26   Curve tolerance: ISO9906:2012 2B                                     000050
+26   Bearing design: Standard                                             000051
+26   
+Materials:                                                          000052
+26   Type key, code for rubber components. E = EPDM, V=FKM:               000053
+26   E                                                                    000054
+26   Pump housing: Cast iron                                              000055
+26   Pump housing: EN 1561 EN-GJL-250                                     000056
+26   Pump housing: ASTM A48-35                                            000057
+26   Impeller: Stainless steel                                            000058
+26   Impeller: EN 1.4308                                                  000059
+26   Impeller: ASTM A351 CF8                                              000060
+26   Pump house, internal coating: Painting                               000061
+26   Type key, code for materials: S3                                     000062
+26   Shaft: Steel                                                         000063
+26   Shaft: EN 1.0503/1.4301                                              000064
+26   Shaft: AISI 1045/304                                                 000065
+26   
+Installation:                                                       000066
+26   Maximum ambient temperature: 40 øC                                   000067
+26   Maximum operating pressure: 16 bar                                   000068
+26   Pipe connection standard: EN 1092-2                                  000069
+26   Type of inlet connection: DIN                                        000070
+26   Type of outlet connection: DIN                                       000071
+26   Size of inlet connection: DN 80                                      000072
+26   Size of outlet connection: DN 65                                     000073
+26   Pressure rating for connection: PN 16                                000074
+26   Coupling type: Flexible w/o spacer                                   000075
+26   Base frame design: C-channel                                         000076
+26   Code for base frame: 271                                             000077
+26   Grouting (Yes/No): N                                                 000078
+26   
+Electrical data:                                                    000079
+26   Motor type: 160MB                                                    000080
+26   Rated power - P2: 15 kW                                              000081
+26   Mains frequency: 50 Hz                                               000082
+26   Rated voltage: 3 x 380-400D/660-690Y V                               000083
+26   Rated current: 27,9-26,5/16,0-15,3 A                                 000084
+26   Starting current: 810 %                                              000085
+26   Cos phi - power factor: 0.89                                         000086
+26   Rated speed: 2930 rpm                                                000087
+26   IE efficiency: IE3 91,9%                                             000088
+26   IE Efficiency class: IE3                                             000089
+26   Motor efficiency at full load: 91.9 %                                000090
+26   Motor efficiency at 3/4 load: 91.9 %                                 000091
+26   Motor efficiency at 1/2 load: 89.8 %                                 000092
+26   Number of poles: 2                                                   000093
+26   Enclosure class (IEC 34-5): IP55 (Protect. water                     000094
+26   jets/dust)                                                           000095
+26   Insulation class (IEC 85): F                                         000096
+26   Built-in motor protection: PTC                                       000097
+26   Motor No: 99546140                                                   000098
+26   Bearing insulation type N-end: Steel bearing                         000099
+26   
+Others:                                                             000100
+26   Minimum efficiency index, MEI =: 0.70                                000101
+26   Net weight: 226 kg                                                   000102
+26   Gross weight: 256 kg                                                 000103
+26   Shipping volume: 0.585 mü                                            000104
+26   Country of origin: CN                                                000105
+26   Custom tariff no.: 84137000                                          000106
+26   Language on pump nameplate: CN                                       000107
+26   
+                                                                    000108
+26   Produktnummer:             93052617                                  000109
+311001                                                                    000110
+3110                                                                      000111
+99                                                                   00001000112
