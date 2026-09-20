@@ -1,0 +1,312 @@
+{
+  "generatedAt": "2026-08-31T14:32:40.769Z",
+  "scope": "Controlled headless probes of existing Wasm, original geometry functions, and UI scheduling; not an ANSYS run or full browser test.",
+  "wasmSha256": "8c0c5eefdc1e3daea4dac7b5d9920667712cdbc4d05ae37d9a91a609ffec6a13",
+  "defaults": {
+    "Ds": "190",
+    "Dh": "60",
+    "D2": "324",
+    "b2": "40",
+    "beta1": "20",
+    "beta2": "34",
+    "Z": "7",
+    "fluidDensity": "997",
+    "fluidViscosity": "0.000001004",
+    "cavitationG": "0",
+    "suctionL": "0",
+    "dischargeL": "250",
+    "voluteD": "150",
+    "rpm": "50",
+    "lbmResolution": "128"
+  },
+  "duplicateIds": [
+    "Ds",
+    "Dh",
+    "D2",
+    "b2",
+    "beta1",
+    "beta2"
+  ],
+  "geometry": {
+    "sizeMm": 704.2200000000001,
+    "spacingMm": 5.545039370078741,
+    "nominalBladeThicknessMm": 6,
+    "bladeThicknessInCells": 1.082048223566499,
+    "cellTypes": [
+      5957,
+      10341,
+      86
+    ],
+    "boundaryFluidCells": 0,
+    "geometrySensitivity": {
+      "Dh": {
+        "changedValue": 100,
+        "maskUnchanged": true
+      },
+      "suctionL": {
+        "changedValue": 950,
+        "maskUnchanged": true
+      }
+    }
+  },
+  "scaling": [
+    {
+      "rpm": 50,
+      "fps": 30,
+      "deltaTheta": 0.00872664625997165,
+      "tipLatticeVelocity": 0.25695909921157034,
+      "tipLatticeMach": 0.44506621530157164,
+      "impliedPhysicalDt": 0.0016666666666666668,
+      "impliedPhysicalViscosity": 0.000302689092041016,
+      "viscosityRatio": 301.4831594034024
+    },
+    {
+      "rpm": 50,
+      "fps": 60,
+      "deltaTheta": 0.004363323129985825,
+      "tipLatticeVelocity": 0.12847954960578517,
+      "tipLatticeMach": 0.22253310765078582,
+      "impliedPhysicalDt": 0.0008333333333333334,
+      "impliedPhysicalViscosity": 0.000605378184082032,
+      "viscosityRatio": 602.9663188068048
+    },
+    {
+      "rpm": 50,
+      "fps": 120,
+      "deltaTheta": 0.0021816615649929124,
+      "tipLatticeVelocity": 0.06423977480289259,
+      "tipLatticeMach": 0.11126655382539291,
+      "impliedPhysicalDt": 0.0004166666666666667,
+      "impliedPhysicalViscosity": 0.001210756368164064,
+      "viscosityRatio": 1205.9326376136096
+    },
+    {
+      "rpm": 1500,
+      "fps": 30,
+      "deltaTheta": 0.26179938779914946,
+      "tipLatticeVelocity": 7.7087729763471105,
+      "tipLatticeMach": 13.351986459047149,
+      "impliedPhysicalDt": 0.0016666666666666668,
+      "impliedPhysicalViscosity": 0.000302689092041016,
+      "viscosityRatio": 301.4831594034024
+    },
+    {
+      "rpm": 1500,
+      "fps": 60,
+      "deltaTheta": 0.13089969389957473,
+      "tipLatticeVelocity": 3.8543864881735552,
+      "tipLatticeMach": 6.675993229523574,
+      "impliedPhysicalDt": 0.0008333333333333334,
+      "impliedPhysicalViscosity": 0.000605378184082032,
+      "viscosityRatio": 602.9663188068048
+    },
+    {
+      "rpm": 1500,
+      "fps": 120,
+      "deltaTheta": 0.06544984694978737,
+      "tipLatticeVelocity": 1.9271932440867776,
+      "tipLatticeMach": 3.337996614761787,
+      "impliedPhysicalDt": 0.0004166666666666667,
+      "impliedPhysicalViscosity": 0.001210756368164064,
+      "viscosityRatio": 1205.9326376136096
+    }
+  ],
+  "probes": [
+    {
+      "rpm": 0,
+      "fps": 60,
+      "moving": false,
+      "inputViscosity": 0.000001004,
+      "requestedSteps": 600,
+      "completedSteps": 600,
+      "firstDensityExcursion": null,
+      "firstNonFinite": null,
+      "initial": {
+        "fluidCells": 5957,
+        "minRho": 1,
+        "maxRho": 1,
+        "maxSpeed": 0,
+        "mass": 5957,
+        "nonFinite": 0
+      },
+      "last": {
+        "fluidCells": 5957,
+        "minRho": 1.0000000000000004,
+        "maxRho": 1.0000000000000004,
+        "maxSpeed": 0,
+        "mass": 5957.000000000001,
+        "nonFinite": 0
+      },
+      "fluidMassChangePercent": 2.220446049250313e-14,
+      "rhoHash": "6fcd16dc459fdfaf9d3bd6ef2fccbfe0633c1598cc8bfc7fe7d55db770bd4efd"
+    },
+    {
+      "rpm": 50,
+      "fps": 60,
+      "moving": false,
+      "inputViscosity": 0.000001004,
+      "requestedSteps": 600,
+      "completedSteps": 316,
+      "firstDensityExcursion": 3,
+      "firstNonFinite": 316,
+      "initial": {
+        "fluidCells": 5957,
+        "minRho": 1,
+        "maxRho": 1,
+        "maxSpeed": 0,
+        "mass": 5957,
+        "nonFinite": 0
+      },
+      "last": {
+        "fluidCells": 5957,
+        "minRho": 0.7893446095696225,
+        "maxRho": 2.5341974381967133e+266,
+        "maxSpeed": 5.332631223972482e+266,
+        "mass": 2.5981475762780424e+266,
+        "nonFinite": 19
+      },
+      "fluidMassChangePercent": 4.361503401507542e+264,
+      "rhoHash": "a8058f36fa244ea1375228cdd190422077095300b800db50c449b0b6d824b9be"
+    },
+    {
+      "rpm": 50,
+      "fps": 60,
+      "moving": true,
+      "inputViscosity": 0.000001004,
+      "requestedSteps": 600,
+      "completedSteps": 600,
+      "firstDensityExcursion": 3,
+      "firstNonFinite": null,
+      "initial": {
+        "fluidCells": 5957,
+        "minRho": 1,
+        "maxRho": 1,
+        "maxSpeed": 0,
+        "mass": 5957,
+        "nonFinite": 0
+      },
+      "last": {
+        "fluidCells": 5951,
+        "minRho": 0.985171955618227,
+        "maxRho": 1.0222709991833985,
+        "maxSpeed": 0.1283327783948181,
+        "mass": 5951.447882573215,
+        "nonFinite": 0
+      },
+      "fluidMassChangePercent": -0.0932032470502775,
+      "rhoHash": "9080f6a93c746609b3bb8fb34c8b364714160235baa06270886e0d0b3d6637d0"
+    },
+    {
+      "rpm": 50,
+      "fps": 60,
+      "moving": true,
+      "inputViscosity": 0.001004,
+      "requestedSteps": 600,
+      "completedSteps": 600,
+      "firstDensityExcursion": 3,
+      "firstNonFinite": null,
+      "initial": {
+        "fluidCells": 5957,
+        "minRho": 1,
+        "maxRho": 1,
+        "maxSpeed": 0,
+        "mass": 5957,
+        "nonFinite": 0
+      },
+      "last": {
+        "fluidCells": 5951,
+        "minRho": 0.985171955618227,
+        "maxRho": 1.0222709991833985,
+        "maxSpeed": 0.1283327783948181,
+        "mass": 5951.447882573215,
+        "nonFinite": 0
+      },
+      "fluidMassChangePercent": -0.0932032470502775,
+      "rhoHash": "9080f6a93c746609b3bb8fb34c8b364714160235baa06270886e0d0b3d6637d0"
+    },
+    {
+      "rpm": 50,
+      "fps": 30,
+      "moving": true,
+      "inputViscosity": 0.000001004,
+      "requestedSteps": 300,
+      "completedSteps": 300,
+      "firstDensityExcursion": 2,
+      "firstNonFinite": null,
+      "initial": {
+        "fluidCells": 5957,
+        "minRho": 1,
+        "maxRho": 1,
+        "maxSpeed": 0,
+        "mass": 5957,
+        "nonFinite": 0
+      },
+      "last": {
+        "fluidCells": 5951,
+        "minRho": 0.923290188799389,
+        "maxRho": 1.065051488130851,
+        "maxSpeed": 0.2665187650560503,
+        "mass": 5954.156924637392,
+        "nonFinite": 0
+      },
+      "fluidMassChangePercent": -0.047726630226763156,
+      "rhoHash": "3de2e162b1772b40f6b05ad66d482afe14bb5319f6785627159e634298fbf9c1"
+    },
+    {
+      "rpm": 50,
+      "fps": 120,
+      "moving": true,
+      "inputViscosity": 0.000001004,
+      "requestedSteps": 1200,
+      "completedSteps": 1200,
+      "firstDensityExcursion": null,
+      "firstNonFinite": null,
+      "initial": {
+        "fluidCells": 5957,
+        "minRho": 1,
+        "maxRho": 1,
+        "maxSpeed": 0,
+        "mass": 5957,
+        "nonFinite": 0
+      },
+      "last": {
+        "fluidCells": 5951,
+        "minRho": 0.994646444446165,
+        "maxRho": 1.007374997378764,
+        "maxSpeed": 0.06365293544112922,
+        "mass": 5951.098122253214,
+        "nonFinite": 0
+      },
+      "fluidMassChangePercent": -0.09907466420658873,
+      "rhoHash": "cb2a0ed2b28490262086769ae1ccc84fb6180e6e55266d817d4aa8ba6e9ebb17"
+    },
+    {
+      "rpm": 1500,
+      "fps": 60,
+      "moving": true,
+      "inputViscosity": 0.000001004,
+      "requestedSteps": 600,
+      "completedSteps": 12,
+      "firstDensityExcursion": 2,
+      "firstNonFinite": 12,
+      "initial": {
+        "fluidCells": 5957,
+        "minRho": 1,
+        "maxRho": 1,
+        "maxSpeed": 0,
+        "mass": 5957,
+        "nonFinite": 0
+      },
+      "last": {
+        "fluidCells": 5949,
+        "minRho": 0.4236673979773213,
+        "maxRho": 2.90402699950501e+303,
+        "maxSpeed": 7.26274015710992e+302,
+        "mass": 9.267296731669084e+303,
+        "nonFinite": 390
+      },
+      "fluidMassChangePercent": 1.5556986287844693e+302,
+      "rhoHash": "78f9069eb7c657eef5fb7298f6ba56ea1af9715a0c3358589572734e657796a4"
+    }
+  ]
+}

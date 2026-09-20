@@ -1,0 +1,549 @@
+[
+  {
+    "index": 0,
+    "bbox": [
+      -224.4621008712108,
+      -225.0,
+      -125.0000001,
+      211.76803926414644,
+      280.0,
+      81.5000001
+    ],
+    "volume_mm3": 16520067.29178322,
+    "faces": 344,
+    "valid": true,
+    "surfaceTypes": {
+      "GeomAbs_SurfaceType.GeomAbs_Cylinder": 172,
+      "GeomAbs_SurfaceType.GeomAbs_Plane": 116,
+      "GeomAbs_SurfaceType.GeomAbs_Cone": 32,
+      "GeomAbs_SurfaceType.GeomAbs_Torus": 5,
+      "GeomAbs_SurfaceType.GeomAbs_BSplineSurface": 19
+    }
+  },
+  {
+    "index": 1,
+    "bbox": [
+      -199.0,
+      -199.0,
+      72.99999999999996,
+      199.0,
+      199.0,
+      94.99999999999994
+    ],
+    "volume_mm3": 2737024.634845806,
+    "faces": 4,
+    "valid": true,
+    "surfaceTypes": {
+      "GeomAbs_SurfaceType.GeomAbs_Cylinder": 2,
+      "GeomAbs_SurfaceType.GeomAbs_Plane": 2
+    }
+  },
+  {
+    "index": 2,
+    "bbox": [
+      -145.00000000000023,
+      -145.0,
+      94.99999999999994,
+      144.99999999999977,
+      145.0,
+      470.5
+    ],
+    "volume_mm3": 4638824.638786518,
+    "faces": 88,
+    "valid": true,
+    "surfaceTypes": {
+      "GeomAbs_SurfaceType.GeomAbs_Cylinder": 8,
+      "GeomAbs_SurfaceType.GeomAbs_Cone": 19,
+      "GeomAbs_SurfaceType.GeomAbs_Plane": 37,
+      "GeomAbs_SurfaceType.GeomAbs_BSplineSurface": 24
+    }
+  },
+  {
+    "index": 3,
+    "bbox": [
+      -75.00000010000043,
+      -224.99999999999986,
+      313.9999999999998,
+      75.00000009999955,
+      -64.99999989999986,
+      363.0000000999998
+    ],
+    "volume_mm3": 120406.59236309616,
+    "faces": 20,
+    "valid": true,
+    "surfaceTypes": {
+      "GeomAbs_SurfaceType.GeomAbs_Cylinder": 6,
+      "GeomAbs_SurfaceType.GeomAbs_Plane": 14
+    }
+  },
+  {
+    "index": 4,
+    "bbox": [
+      -199.0006049909504,
+      -317.03056495399346,
+      -72.50120000414915,
+      -155.98955491675414,
+      -236.99938499400014,
+      952.5016294827511
+    ],
+    "volume_mm3": 1043066.599791327,
+    "faces": 20,
+    "valid": true,
+    "surfaceTypes": {
+      "GeomAbs_SurfaceType.GeomAbs_Cylinder": 10,
+      "GeomAbs_SurfaceType.GeomAbs_Plane": 10
+    }
+  },
+  {
+    "index": 5,
+    "bbox": [
+      155.99939497355012,
+      -317.0270149539943,
+      -72.50474993314921,
+      199.0104450477466,
+      -236.99583499400052,
+      952.498079553751
+    ],
+    "volume_mm3": 1043066.6013418026,
+    "faces": 20,
+    "valid": true,
+    "surfaceTypes": {
+      "GeomAbs_SurfaceType.GeomAbs_Cylinder": 10,
+      "GeomAbs_SurfaceType.GeomAbs_Plane": 10
+    }
+  },
+  {
+    "index": 6,
+    "bbox": [
+      -156.00060499525054,
+      -317.0006749540004,
+      -72.5043199417492,
+      156.00062495385018,
+      -236.99626499400048,
+      -29.498800017649845
+    ],
+    "volume_mm3": 319570.5794102937,
+    "faces": 14,
+    "valid": true,
+    "surfaceTypes": {
+      "GeomAbs_SurfaceType.GeomAbs_Cylinder": 4,
+      "GeomAbs_SurfaceType.GeomAbs_Plane": 10
+    }
+  },
+  {
+    "index": 7,
+    "bbox": [
+      -155.99330992230347,
+      -317.02255995399526,
+      656.9956796935,
+      156.00792002679725,
+      -237.01814999399562,
+      700.0011996175995
+    ],
+    "volume_mm3": 319570.57941126276,
+    "faces": 14,
+    "valid": true,
+    "surfaceTypes": {
+      "GeomAbs_SurfaceType.GeomAbs_Plane": 10,
+      "GeomAbs_SurfaceType.GeomAbs_Cylinder": 4
+    }
+  },
+  {
+    "index": 8,
+    "bbox": [
+      -155.99088989810446,
+      -317.0298199539936,
+      898.9956795724999,
+      156.01034005099626,
+      -237.02540999399392,
+      942.0011994966012
+    ],
+    "volume_mm3": 319570.5793989494,
+    "faces": 14,
+    "valid": true,
+    "surfaceTypes": {
+      "GeomAbs_SurfaceType.GeomAbs_Plane": 10,
+      "GeomAbs_SurfaceType.GeomAbs_Cylinder": 4
+    }
+  },
+  {
+    "index": 9,
+    "bbox": [
+      -155.996979959002,
+      -280.0126599724981,
+      289.99678988070013,
+      156.00425000489884,
+      -237.00713999399792,
+      370.0011997826007
+    ],
+    "volume_mm3": 319570.57941273146,
+    "faces": 14,
+    "valid": true,
+    "surfaceTypes": {
+      "GeomAbs_SurfaceType.GeomAbs_Plane": 10,
+      "GeomAbs_SurfaceType.GeomAbs_Cylinder": 4
+    }
+  },
+  {
+    "index": 10,
+    "bbox": [
+      -166.99391990290349,
+      -237.0226699939952,
+      657.0005096528994,
+      -86.99287992490312,
+      -176.0205800244954,
+      700.0031396215008
+    ],
+    "volume_mm3": 62480.14533383153,
+    "faces": 14,
+    "valid": true,
+    "surfaceTypes": {
+      "GeomAbs_SurfaceType.GeomAbs_Plane": 10,
+      "GeomAbs_SurfaceType.GeomAbs_Cylinder": 4
+    }
+  },
+  {
+    "index": 11,
+    "bbox": [
+      87.00608007169704,
+      -237.02012999399545,
+      656.9979697036994,
+      167.00712004969753,
+      -176.01804002449563,
+      700.0005996723008
+    ],
+    "volume_mm3": 62480.14533390474,
+    "faces": 14,
+    "valid": true,
+    "surfaceTypes": {
+      "GeomAbs_SurfaceType.GeomAbs_Plane": 10,
+      "GeomAbs_SurfaceType.GeomAbs_Cylinder": 4
+    }
+  },
+  {
+    "index": 12,
+    "bbox": [
+      87.0085000958962,
+      -237.02738999399355,
+      898.9979695826992,
+      167.00954007389632,
+      -176.02530002449396,
+      942.0005995513006
+    ],
+    "volume_mm3": 62480.145335481386,
+    "faces": 14,
+    "valid": true,
+    "surfaceTypes": {
+      "GeomAbs_SurfaceType.GeomAbs_Plane": 10,
+      "GeomAbs_SurfaceType.GeomAbs_Cylinder": 4
+    }
+  },
+  {
+    "index": 13,
+    "bbox": [
+      -166.99149987870447,
+      -237.0299299939935,
+      899.0005095318992,
+      -86.9904599007041,
+      -176.02784002449346,
+      942.0031395005005
+    ],
+    "volume_mm3": 62480.145335552,
+    "faces": 14,
+    "valid": true,
+    "surfaceTypes": {
+      "GeomAbs_SurfaceType.GeomAbs_Plane": 10,
+      "GeomAbs_SurfaceType.GeomAbs_Cylinder": 4
+    }
+  },
+  {
+    "index": 14,
+    "bbox": [
+      97.4992749830001,
+      -237.00119999399988,
+      -72.50218492844992,
+      182.50084498540008,
+      -224.99600000000075,
+      72.49902498324987
+    ],
+    "volume_mm3": 145974.8715556804,
+    "faces": 10,
+    "valid": true,
+    "surfaceTypes": {
+      "GeomAbs_SurfaceType.GeomAbs_Cylinder": 4,
+      "GeomAbs_SurfaceType.GeomAbs_Plane": 6
+    }
+  },
+  {
+    "index": 15,
+    "bbox": [
+      -182.50072498900062,
+      -237.0039999939996,
+      -72.49938498444992,
+      -97.49915498660062,
+      -224.99880000000024,
+      72.50182492724984
+    ],
+    "volume_mm3": 145974.87155568192,
+    "faces": 10,
+    "valid": true,
+    "surfaceTypes": {
+      "GeomAbs_SurfaceType.GeomAbs_Cylinder": 4,
+      "GeomAbs_SurfaceType.GeomAbs_Plane": 6
+    }
+  },
+  {
+    "index": 16,
+    "bbox": [
+      -74.99702496275175,
+      -237.01162499399766,
+      297.4988898650497,
+      75.00374502514845,
+      -225.00817499999806,
+      362.50074980375007
+    ],
+    "volume_mm3": 115074.87155568284,
+    "faces": 10,
+    "valid": true,
+    "surfaceTypes": {
+      "GeomAbs_SurfaceType.GeomAbs_Cylinder": 4,
+      "GeomAbs_SurfaceType.GeomAbs_Plane": 6
+    }
+  },
+  {
+    "index": 17,
+    "bbox": [
+      74.00582007679716,
+      -176.0278200244937,
+      646.9996697174008,
+      180.00903009189634,
+      -160.01761003249567,
+      952.0012095453005
+    ],
+    "volume_mm3": 514713.16207425063,
+    "faces": 10,
+    "valid": true,
+    "surfaceTypes": {
+      "GeomAbs_SurfaceType.GeomAbs_Cylinder": 4,
+      "GeomAbs_SurfaceType.GeomAbs_Plane": 6
+    }
+  },
+  {
+    "index": 18,
+    "bbox": [
+      -179.99417989780352,
+      -176.03036002449346,
+      647.0022096666008,
+      -73.9909698827041,
+      -160.02015003249542,
+      952.0037494945005
+    ],
+    "volume_mm3": 514713.1620742474,
+    "faces": 10,
+    "valid": true,
+    "surfaceTypes": {
+      "GeomAbs_SurfaceType.GeomAbs_Cylinder": 4,
+      "GeomAbs_SurfaceType.GeomAbs_Plane": 6
+    }
+  },
+  {
+    "index": 19,
+    "bbox": [
+      180.0060700806973,
+      -170.0203100274951,
+      701.9997096932988,
+      194.00682007079743,
+      -130.0191200474953,
+      737.0010496770003
+    ],
+    "volume_mm3": 17495.367638335723,
+    "faces": 8,
+    "valid": true,
+    "surfaceTypes": {
+      "GeomAbs_SurfaceType.GeomAbs_Cylinder": 2,
+      "GeomAbs_SurfaceType.GeomAbs_Plane": 6
+    }
+  },
+  {
+    "index": 20,
+    "bbox": [
+      -193.99392988190377,
+      -170.02405002749472,
+      702.0034496184988,
+      -179.99317989180358,
+      -130.02286004749467,
+      737.0047896022004
+    ],
+    "volume_mm3": 17495.367638335585,
+    "faces": 8,
+    "valid": true,
+    "surfaceTypes": {
+      "GeomAbs_SurfaceType.GeomAbs_Cylinder": 2,
+      "GeomAbs_SurfaceType.GeomAbs_Plane": 6
+    }
+  },
+  {
+    "index": 21,
+    "bbox": [
+      180.0076700966964,
+      -170.02511002749398,
+      861.9997096132987,
+      194.00842008679655,
+      -130.02392004749393,
+      897.0010495970002
+    ],
+    "volume_mm3": 17495.367638336484,
+    "faces": 8,
+    "valid": true,
+    "surfaceTypes": {
+      "GeomAbs_SurfaceType.GeomAbs_Cylinder": 2,
+      "GeomAbs_SurfaceType.GeomAbs_Plane": 6
+    }
+  },
+  {
+    "index": 22,
+    "bbox": [
+      -193.99232986590442,
+      -170.0288500274936,
+      862.0034495384986,
+      -179.99157987580426,
+      -130.0276600474938,
+      897.0047895222003
+    ],
+    "volume_mm3": 17495.367638336527,
+    "faces": 8,
+    "valid": true,
+    "surfaceTypes": {
+      "GeomAbs_SurfaceType.GeomAbs_Cylinder": 2,
+      "GeomAbs_SurfaceType.GeomAbs_Plane": 6
+    }
+  },
+  {
+    "index": 23,
+    "bbox": [
+      -155.99955498475072,
+      -300.0037349624997,
+      32.49619000745067,
+      156.00147496914977,
+      -236.99941499399998,
+      72.50119993134996
+    ],
+    "volume_mm3": 263544.8795591515,
+    "faces": 14,
+    "valid": true,
+    "surfaceTypes": {
+      "GeomAbs_SurfaceType.GeomAbs_Plane": 10,
+      "GeomAbs_SurfaceType.GeomAbs_Cylinder": 4
+    }
+  },
+  {
+    "index": 24,
+    "bbox": [
+      -220.99934499003828,
+      -311.0035037157992,
+      27.49921326635051,
+      -160.9988725990303,
+      -243.00258623220003,
+      41.501502398877555
+    ],
+    "volume_mm3": 42007.60987058248,
+    "faces": 12,
+    "valid": true,
+    "surfaceTypes": {
+      "GeomAbs_SurfaceType.GeomAbs_Cylinder": 6,
+      "GeomAbs_SurfaceType.GeomAbs_Plane": 6
+    }
+  },
+  {
+    "index": 25,
+    "bbox": [
+      -220.99123490894152,
+      -311.027833715794,
+      838.4992128608516,
+      -160.99076251793358,
+      -243.02691623219386,
+      852.5015019933786
+    ],
+    "volume_mm3": 42007.609870585526,
+    "faces": 12,
+    "valid": true,
+    "surfaceTypes": {
+      "GeomAbs_SurfaceType.GeomAbs_Cylinder": 6,
+      "GeomAbs_SurfaceType.GeomAbs_Plane": 6
+    }
+  },
+  {
+    "index": 26,
+    "bbox": [
+      161.0006025747295,
+      -310.99948371580007,
+      27.495377556223637,
+      221.00107496573725,
+      -242.99856623220046,
+      41.497666688750655
+    ],
+    "volume_mm3": 42007.60987058277,
+    "faces": 12,
+    "valid": true,
+    "surfaceTypes": {
+      "GeomAbs_SurfaceType.GeomAbs_Cylinder": 6,
+      "GeomAbs_SurfaceType.GeomAbs_Plane": 6
+    }
+  },
+  {
+    "index": 27,
+    "bbox": [
+      161.00871265582626,
+      -311.0238137157939,
+      838.4953771507246,
+      221.0091850468342,
+      -243.02289623219474,
+      852.4976662832515
+    ],
+    "volume_mm3": 42007.60987058533,
+    "faces": 12,
+    "valid": true,
+    "surfaceTypes": {
+      "GeomAbs_SurfaceType.GeomAbs_Cylinder": 6,
+      "GeomAbs_SurfaceType.GeomAbs_Plane": 6
+    }
+  },
+  {
+    "index": 28,
+    "bbox": [
+      -90.00442003970042,
+      -90.0044199512986,
+      383.49872720759424,
+      89.99997999529938,
+      89.99997999570053,
+      823.5012727480064
+    ],
+    "volume_mm3": 11196636.217394026,
+    "faces": 4,
+    "valid": true,
+    "surfaceTypes": {
+      "GeomAbs_SurfaceType.GeomAbs_Cylinder": 2,
+      "GeomAbs_SurfaceType.GeomAbs_Plane": 2
+    }
+  },
+  {
+    "index": 29,
+    "bbox": [
+      -164.99692997930396,
+      -160.02894612400672,
+      473.99472973190353,
+      165.00307012069683,
+      254.9810400905042,
+      1093.9977896385003
+    ],
+    "volume_mm3": 45229103.64538546,
+    "faces": 63,
+    "valid": true,
+    "surfaceTypes": {
+      "GeomAbs_SurfaceType.GeomAbs_BSplineSurface": 3,
+      "GeomAbs_SurfaceType.GeomAbs_Plane": 41,
+      "GeomAbs_SurfaceType.GeomAbs_Cone": 2,
+      "GeomAbs_SurfaceType.GeomAbs_Cylinder": 17
+    }
+  }
+]
