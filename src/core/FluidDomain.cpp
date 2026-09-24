@@ -14,9 +14,12 @@ FluidDomain buildFluidDomain(const PumpParameters& params, const Geometry3DModel
     domain.outletArea_m2 = pi * dischargeDiameter_m * dischargeDiameter_m / 4.0;
     domain.rotorVolumeEstimate_m3 = pi * rotorRadius * rotorRadius * rotorLength;
     domain.statorVolumeEstimate_m3 = domain.rotorVolumeEstimate_m3 * 2.0;
-    domain.connected = geometry.watertight && domain.inletArea_m2 > 0.0 && domain.outletArea_m2 > 0.0;
+    domain.hasInlet = geometry.hasInlet && domain.inletArea_m2 > 0.0;
+    domain.hasOutlet = geometry.hasOutlet && domain.outletArea_m2 > 0.0;
+    domain.hasRotorPassage = geometry.hasBladePassages && geometry.minimumTipClearance_m > 0.0;
+    domain.connected = geometry.watertight && domain.hasInlet && domain.hasOutlet && domain.hasRotorPassage;
     domain.description = domain.connected
-        ? "Conceptual inlet-eye-rotor-volute-outlet connected fluid domain"
-        : "Fluid-domain connectivity requires geometry correction";
+        ? "Conceptual inlet-eye-rotor-volute-outlet connectivity passed"
+        : "Connectivity is incomplete; a CAD fluid-volume extraction is still required";
     return domain;
 }

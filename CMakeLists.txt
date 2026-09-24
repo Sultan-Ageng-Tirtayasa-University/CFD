@@ -16,6 +16,7 @@ add_executable(impeller_gen
     src/io/CaseExport.cpp
     src/io/OpenFoamExport.cpp
     src/validation/GeometryValidation.cpp
+    src/validation/OemValidation.cpp
 )
 
 target_include_directories(impeller_gen PRIVATE

@@ -8,6 +8,9 @@ struct FluidDomain {
     double outletArea_m2 = 0.0;
     double rotorVolumeEstimate_m3 = 0.0;
     double statorVolumeEstimate_m3 = 0.0;
+    bool hasInlet = false;
+    bool hasOutlet = false;
+    bool hasRotorPassage = false;
     bool connected = false;
     std::string description;
 };
