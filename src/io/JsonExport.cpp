@@ -1,11 +1,11 @@
 #include "JsonExport.hpp"
 
 #include "../core/Types.hpp"
-#include "../core/Geometry.cpp"
 
 #include <fstream>
 #include <iomanip>
 #include <sstream>
+#include <stdexcept>
 
 static std::string fmtJson(double value, int precision = 6) {
     std::ostringstream oss;
@@ -81,5 +81,4 @@ void writeImpellerJson(const std::string& path,
     out << "  \"blades\": " << serializeBladeArray(blades) << ",\n";
     out << "  \"volute\": " << serializePointArray(volute) << "\n";
     out << "}\n";
-    out.close();
 }

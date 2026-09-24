@@ -1,10 +1,9 @@
 #include "CaseExport.hpp"
 
 #include "../core/Types.hpp"
-#include "../core/Geometry.cpp"
 
 #include <fstream>
-#include <sstream>
+#include <stdexcept>
 
 void writeCaseManifest(const std::string& path,
                       const PumpParameters& params,
@@ -49,12 +48,11 @@ void writeCaseManifest(const std::string& path,
     out << "    \"tipSpeed_m_s\": " << formatDouble(estimate.tipSpeed_m_s, 6) << ",\n";
     out << "    \"eulerHead_m\": " << formatDouble(estimate.eulerHead_m, 6) << ",\n";
     out << "    \"pressureRise_bar\": " << formatDouble(estimate.pressureRise_bar, 6) << ",\n";
-    out << "    \"hydraulicPower_kW\": " << formatDouble(estimate.hydraulicPower_kW, 6) << \"\n\";
+    out << "    \"hydraulicPower_kW\": " << formatDouble(estimate.hydraulicPower_kW, 6) << "\n";
     out << "  },\n";
     out << "  \"notes\": [\n";
     out << "    \"This is a baseline geometry and engineering estimate, not a validated 3D CFD solution.\",\n";
     out << "    \"Use this manifest as the basis for OpenFOAM or SU2 steady-state RANS validation.\"\n";
     out << "  ]\n";
     out << "}\n";
-    out.close();
 }

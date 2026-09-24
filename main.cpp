@@ -1,7 +1,7 @@
-#include "../core/Types.hpp"
-#include "../validation/GeometryValidation.hpp"
-#include "../io/JsonExport.hpp"
-#include "../io/CaseExport.hpp"
+#include "core/Types.hpp"
+#include "validation/GeometryValidation.hpp"
+#include "io/JsonExport.hpp"
+#include "io/CaseExport.hpp"
 
 #include <iostream>
 #include <stdexcept>
